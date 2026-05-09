@@ -44,6 +44,14 @@ html, body, [class*="css"] {
 
 /* ── Hide default streamlit chrome ── */
 #MainMenu, footer, header {visibility: hidden;}
+.stDeployButton {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
+[data-testid="stDecoration"] {display: none !important;}
+[data-testid="stStatusWidget"] {display: none !important;}
+.viewerBadge_container__r5tak {display: none !important;}
+.styles_viewerBadge__CvC9N {display: none !important;}
+._profileContainer_gzau3_53 {display: none !important;}
+._profilePreview_gzau3_63 {display: none !important;}
 
 /* ── Logo mark ── */
 .logo-mark {
